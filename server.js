@@ -28,4 +28,4 @@ require('./models/listing');
 require('./routes')(app);
 require('./uploadcsv');  // this uploads the data in the csv file into mongo.
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
