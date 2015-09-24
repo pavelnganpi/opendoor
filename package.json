@@ -1,0 +1,25 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "testing nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "pavey nganpi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "csv-parse": "^1.0.0",
+    "express": "^4.13.3",
+    "geojson": "^0.2.1",
+    "mongoose": "^4.1.7"
+  },
+  "devDependencies": {
+    "mongoose": "^4.1.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
