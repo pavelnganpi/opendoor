@@ -26,6 +26,6 @@ if('production' == env){
 
 require('./models/listing');
 require('./routes')(app);
-//require('./uploadcsv');  // this uploads the data in the csv file into mongo.
+require('./uploadcsv');  // this uploads the data in the csv file into mongo.
 
 app.listen(3001);
